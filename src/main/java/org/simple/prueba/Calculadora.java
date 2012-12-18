@@ -17,7 +17,7 @@ public class Calculadora
 	 * @return - La suma de los dos sumandos
 	 */
 	public int sumar(int a, int b){
-		return a + b;
+		return a + b;     
 		
 	}
 
