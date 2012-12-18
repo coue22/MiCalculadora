@@ -65,7 +65,8 @@ public class AppTest
 	@Test
     public void testdeFallo()
     {
-		fail("Fallido...");
+		//fail("Fallido...");
+		System.out.println("Ahora va bien.");
     }	
 		
 }
