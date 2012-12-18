@@ -1,9 +1,7 @@
 package org.simple.prueba;
 
+import static org.junit.Assert.*;
 import org.junit.Test;
- 
-
-
 
 /**
  * Unit test for simple App.
@@ -62,6 +60,12 @@ public class AppTest
     {
 		calc = new Calculadora();
 		System.out.println("Salida de la Logaritmo: " + calc.Logaritmo(8));
+    }		
+	
+	@Test
+    public void testdeFallo()
+    {
+		fail("Fallido...");
     }	
 		
 }
