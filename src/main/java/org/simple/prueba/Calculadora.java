@@ -27,7 +27,7 @@ public class Calculadora
 	 * @return
 	 */
 	public int restar(int a, int b){
-		return a - b;
+		return a - b;  
 	}
 	
 	/**
